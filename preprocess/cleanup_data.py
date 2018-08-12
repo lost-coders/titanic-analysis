@@ -16,7 +16,8 @@ def cleanup_data(df: pd.DataFrame, params: List[str]) -> pd.DataFrame:
 
     Returns
     ----------
-    DataFrame
+    DataFrame:
+        Altered DataFrame after cleanup performed
 
     """
     return df
